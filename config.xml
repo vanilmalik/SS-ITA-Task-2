@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans >
+
+    <bean id="dogBean" class="reflection.classes.Dog">
+        <property name="name" type="String" value="Sharik"/>
+        <property name="weight" value="15.5" type="double"/>
+        <property name="height" value="12" type="double"/>
+    </bean>
+
+    <bean id="carBean" class="reflection.classes.Car">
+        <property name="title" value="Mashina" type="java.lang.String"/>
+        <property name="price" value="11500.60" type="double"/>
+        <property name="engine" value="М8" type="String"/>
+    </bean>
+
+    <bean id="employeeBean" class="reflection.classes.Employee">
+        <property name="name" value="Ivan" type="String"/>
+        <property name="salary" value="1550" type="int"/>
+        <property name="department" value="Development" type="String"/>
+    </bean>
+
+</beans>
